@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 """
 
 import os
-from test.test_coroutines import AsyncBadSyntaxTest
+#from test.test_coroutines import AsyncBadSyntaxTest
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -79,10 +79,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'easy_pass',
-        'HOST':'localhost',
-        'PORT':'3306',
-        'USER':'dsy',
-        'password':'admin123',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'USER': 'dsy',
+        'PASSWORD': 'admin123',
     }
 }
 
